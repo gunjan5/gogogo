@@ -16,7 +16,7 @@ func main() {
 	fmt.Println(t1, t2, "\n\n")
 }
 
-func changeTitleCaseIt1(text1, text2 string) (t1, t2 string) {
+func changeTitleCaseIt1(text1, text2 string) (t1_why_is_this_here, t2_why_is_this_here string) {
 
 	text1 = strings.Title(text1)
 	text2 = strings.ToUpper(text2)
