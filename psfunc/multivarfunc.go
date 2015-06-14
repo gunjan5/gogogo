@@ -4,10 +4,15 @@ import (
 	"fmt"
 )
 
+const (
+	k = iota * 2
+)
+
 func main() {
 
 	goog := bestStock(405, 345, 346, 678, 234, 435, 456, 567)
 	fmt.Println(goog)
+	fmt.Println(k)
 }
 
 func bestStock(stock ...int) int {
