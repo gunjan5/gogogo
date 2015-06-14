@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 )
 
 func main() {
-	fmt.Print("bloody hello\n")
+	fmt.Println("bloody hello ", runtime.GOOS)
 }
