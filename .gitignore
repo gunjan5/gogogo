@@ -4,3 +4,7 @@ github.com/golang/lint/
 github.com/nsf/gocode/
 
 golang.org/x/tools/
+
+GoDB/
+
+github.com/ant0ine/go-json-rest/
