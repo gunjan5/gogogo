@@ -8,3 +8,5 @@ golang.org/x/tools/
 GoDB/
 
 github.com/ant0ine/go-json-rest/
+
+github.com/go-sql-driver/mysql/
